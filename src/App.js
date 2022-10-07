@@ -1,19 +1,6 @@
-import { Link } from "react-router-dom";
-
 function App() {
-  return (
-    <div>
-      <h1>Agendamiento</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/agendaMariaJoseEscaffi">Agenda Dra. Maria José Escaffi</Link> | <Link to="/agendaCristinaOlivos">Agenda Dra. Cristina Olivos</Link>
-      </nav>
-    </div>
-  );
+  window.location.assign("http://agendamiento.softwaremedilink.com/agendas/online/885efb1b88ba283f8406e8c1580c6272a617c1a7");
+  return <div></div>;
 }
 
 export default App;
